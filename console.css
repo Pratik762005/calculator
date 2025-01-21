@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family:  nunito;
+   
+}
+.sub{
+    height: 100%;
+    width: 80%;
+    background-color: bisque;
+
+
+    border-radius: 10px;
+    
+    font-size: large;
+    color: brown;
+    text-align: center;
+  
+ 
+}
+nav{
+    height: 100px;
+    background-color: rgb(207, 212, 187);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 4.4px;
+    margin-left: 50px;
+    transition-property: all;
+    transition-duration: 0.5s;
+  
+}
+nav h1:hover{
+    color: black;
+    
+   border: 3px solid rgb(255, 255, 255);
+   border-radius: 10px;
+}
+
+
+
+button:hover{
+    color: grey;
+    background-color:  transparent;
+    border: 3px black solid;
+}
+
+
+
+.main_section{
+    height:900px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_section > div{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.screen{
+    background-color: gray;
+    width: 85%;
+    height: 15%;
+    border-radius: 10px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 50px;
+    color: white;
+}
+.insert_equation{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.insert_equation::-webkit-scrollbar {
+    display: none; 
+}
+
+.keyboard{
+    background-color: gray;
+    width: 85%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.5%;
+    
+    }
+
+.keys{
+    height: 75px;
+    width: 75px;
+    border: none;
+    border-radius: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.keys:hover{
+    color: white;
+
+    background-color:  transparent;
+    border: 3px black solid;
+ }
+#zero{
+    height: 75px;
+    width: 70%;
+    border-radius: 1000px;
+    
+}
+#equal{
+    height: 75px;
+    width: 80%;
+    border-radius: 1000px;
+    background-color: orange;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+#equal:hover{
+    background-image: linear-gradient(cyan,pink);
+    box-shadow: 0px 0px 10px grey;
+    color: black;
+}
+
+
